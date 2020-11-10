@@ -87,7 +87,6 @@ def main():
             policy_statements.append({'policyname':policy, 'statement':response['PolicyDocument']['Statement']})
     except Exception as e:
         print(e)
-    
     overlapping_policies = conflicting_policy(policy_statements)
     plot(overlapping_policies)
 
