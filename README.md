@@ -10,3 +10,4 @@ This is the tool which will find the AWS policies having overlapping permissions
 Where username is IAM username in AWS.
 
 ## Output
+![Alt text](https://github.com/ankitsaini2609/policy_viewer/blob/master/output.png "Graph of Conflicting Policy")
