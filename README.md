@@ -5,7 +5,7 @@ This is the tool which will find the AWS policies having overlapping permissions
 ```sudo pip3 install -r requirements.txt```
 
 ## How to use
-1- Set AWS_PROFILE<br/>
+1- Set ```AWS_PROFILE``` as environment variable<br/>
 2- ```python3 Pviewer.py -u username```<br/>
 Where username is IAM username in AWS.
 
