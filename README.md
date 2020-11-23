@@ -17,8 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-PViewer is a tool which is going to find overlapping permissions between two AWS IAM policies
-
+PViewer is a tool which will be used to find the conflicting policies for a user.
 
 
 ### Built With
