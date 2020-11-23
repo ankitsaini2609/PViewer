@@ -1,0 +1,21 @@
+name: "Python tests"
+on: [pull_request, push]
+
+jobs:
+    python-tests:
+        runs-on: ubuntu-20.04
+        steps:
+        - name: Checkout sources
+          uses: actions/checkout@v2
+
+        - name: Setup Python
+          uses: actions/setup-python@v2
+          with:
+            python-version: '3.x'
+            architecture: 'x64'
+
+        - name: Setup pytest and other dependencies 
+          run: pip install -r requirements.txt && pip install -r requirements-dev.txt
+
+        - name: Test the python code
+          run: py.test
