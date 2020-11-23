@@ -1,8 +1,11 @@
 # PViewer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Twitter](https://img.shields.io/twitter/follow/d3afh3av3n?style=social)](https://twitter.com/d3afh3av3n)\
 PViewer is a tool which is going to find overlapping permissions between two AWS IAM policies.
 
+
 #### Example
-Two policies allowing you to write objects in the same S3 bucket. It will plot a graph and connecting overlapping policies as edges.\
+Two policies allowing you to write objects in the same S3 bucket. It will plot a graph and connecting overlapping policies as edges.
+
 ![Alt text](https://github.com/ankitsaini2609/PViewer/blob/master/demo.gif "demo")  
 
 ## Installation
