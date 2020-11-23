@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-PViewer is a tool which will be used to find the conflicting policies for a user.
+PViewer is a tool which will be used to find the conflicting policies for a AWS IAM user.
 
 
 ### Built With
