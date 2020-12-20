@@ -100,10 +100,16 @@ def plot(overlapping_policies):
 
 
 def main():
+    """
+    pass username of your aws account using -u parameter
+    """
     # Argument Parsing
     parser = argparse.ArgumentParser(usage="%(prog)s -u username")
     parser.add_argument("-u", "--username", help="User Name")
     args = parser.parse_args()
+    if len(sys.argv) != 3:
+        print(parser.parse_args(['-h']))
+        sys.exit(0)
     username = args.username
     policy_statements = list()
     # fetching managed policies
