@@ -32,19 +32,22 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 
-### Installation via pip
+### Installation via pip 
 
 1. Install using pip:
 ```sh
 pip3 install pviewer
 ```
-2. Set the AWS_PROFILE as environment variable
+
+### How to run
+1. Set the AWS_PROFILE as environment variable
 ```sh
 export AWS_PROFILE=default
 ```
-3. Run
+2. Run
 ```sh
 python3 -m pviewer -u username
+Where username is IAM username in AWS for which you have to find the overlapping policies
 ```
 
 
@@ -74,9 +77,9 @@ export AWS_PROFILE=default
 5. Run it :rocket:
 ```sh
 python3 __main__.py -u username
+Where username is IAM username in AWS for which you have to find the overlapping policies.
 ```
-Where username is IAM username in AWS for which you have to find the overlapping policies.\
-6. Output\
+6. Output
 ![OUTPUT](https://github.com/ankitsaini2609/PViewer/blob/master/pviewer/output.png "output")
 
 
