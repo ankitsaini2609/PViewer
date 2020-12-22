@@ -7,6 +7,8 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
+  * [Installation via pip](#Installation-via-pip)
+  * [How to run](#How-to-run)
   * [Project Setup](#project-setup)
 * [Usage](#usage)
 * [License](#license)
