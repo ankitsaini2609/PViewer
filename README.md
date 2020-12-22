@@ -32,6 +32,22 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 
+### Installation via pip
+
+1. Install using pip:
+```sh
+pip3 install pviewer
+```
+2. Set the AWS_PROFILE as environment variable
+```sh
+export AWS_PROFILE=default
+```
+3. Run
+```sh
+python3 -m pviewer -u username
+```
+
+
 ### Project Setup
 
 1. Clone this repo
@@ -45,14 +61,11 @@ To get a local copy up and running follow these simple example steps.
    ```
 2. Hop into the project directory
 ```sh
-cd PViewer
+cd PViewer/pviewer
 ```
 3. Install python3 packages
 ```sh
 sudo pip3 install -r requirements.txt
-```
-```sh
-sudo pip3 install -r requirements-dev.txt
 ```
 4. Set the AWS_PROFILE as environment variable
 ```sh
@@ -60,18 +73,18 @@ export AWS_PROFILE=default
 ```
 5. Run it :rocket:
 ```sh
-python3 PViewer.py -u username
+python3 __main__.py -u username
 ```
 Where username is IAM username in AWS for which you have to find the overlapping policies.\
 6. Output\
-![OUTPUT](https://github.com/ankitsaini2609/PViewer/blob/master/output.png "output")
+![OUTPUT](https://github.com/ankitsaini2609/PViewer/blob/master/pviewer/output.png "output")
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 Two policies allowing you to write objects in the same S3 bucket. It will plot a graph and connecting overlapping policies as edges.
 
-![DEMO](https://github.com/ankitsaini2609/PViewer/blob/master/demo.gif "demo")
+![DEMO](https://github.com/ankitsaini2609/PViewer/blob/master/pviewer/demo.gif "demo")
 
 
 <!-- LICENSE -->

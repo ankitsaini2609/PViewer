@@ -1,6 +1,6 @@
 import pytest
 import json
-from PViewer import conflicting_policy 
+from pviewer.__main__ import conflicting_policy
 
 
 def isConflicting(conflict_tracker):
